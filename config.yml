@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://isitab.github.io" 
+title: Isita Bagayatkar
 theme: PaperMod
 
 enableInlineShortcodes: true
