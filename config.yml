@@ -10,26 +10,26 @@ pagination:
 taxonomies:
     tag: tags
 
-# menu:
-#     main:
-#         - name: Books
-#           url: books/
-#           weight: 5 
-#         - name: Papers
-#           url: papers/
-#           weight: 2
-#         - name: Courses
-#           url: courses/
-#           weight: 3
-#         - name: Data
-#           url: data/
-#           weight: 4 
-#         - name: Blog
-#           url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-#           weight: 6
+menu:
+    main:
+        - name: Research
+          url: research/
+          weight: 2
+        - name: Work Experience
+          url: experience/
+          weight: 3
+        - name: Projects
+          url: projects/
+          weight: 4
+        - name: About
+          url: about/
+          weight: 5 
+        - name: Fun
+          url: fun/
+          weight: 6
 
 params:
-    description: "This website hosts Isita Bagayatkar's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "This website hosts Isita Bagayatkar's research, experience, projects, and more."
     author: Isita Bagayatkar
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -44,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    # MainSections: ["books","courses","papers","data"]
+    MainSections: ["research","experience","projects","about","fun"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,19 +55,24 @@ params:
     profileMode:
           enabled: true
           title: Isita Bagayatkar
-          subtitle: "I am a 2nd year Computer Science PhD student at University of California, Irvine. My research focuses on Security and Privacy for Emerging Platforms (IoT, AR/VR, Neurotech) using an Active Root-of-Trust. Reach out at ibagayat[at]uci[dot]edu"
+          subtitle: "I am a 2nd year Computer Science PhD student at University of California, Irvine. \
+            My research focuses on Security and Privacy for Emerging Platforms (IoT, AR/VR, Neurotech) \
+            using an Active Root-of-Trust. Broadly interested in systems security, secure execution, \
+            and policy. Reach out at ibagayat[at]uci[dot]edu"
           imageUrl: "isita.png"
-          imageWidth: 160
-          imageHeight: 160
-          # buttons:
-          #   - name: Papers
-          #     url: papers/
-          #   - name: Data
-          #     url: data/
-          #   - name: Books
-          #     url: books/
-          #   - name: Courses
-          #     url: courses/
+          imageWidth: 200
+          imageHeight: 200
+          buttons:
+            - name: Research
+              url: research/
+            - name: Work Experience
+              url: experience/
+            - name: Projects
+              url: projects/
+            - name: About
+              url: about/
+            - name: Fun
+              url: fun/
           #   - name: Tags
           #     url: tags/
           #   - name: Archive
@@ -78,8 +83,8 @@ params:
     socialIcons:
         # - name: CV
         #   url: cv.pdf
-        # - name: Email
-        #   url: mailto:igelfeld@regensburg.edu
+        - name: Email
+          url: mailto:ibagayat@uci.edu
         # - name: Zoom
         #   url: https://www.zoom.us/my/igelfeld
         # - name: Location
