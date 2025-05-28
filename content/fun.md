@@ -16,10 +16,6 @@ Dark Patterns in XR
 ## Books
 Sun Tzu * Art of War
 
-## Favorite Sayings and Great Bits
-that solution is pedestrian
-
-[heckling audience questions]
 
 ## Irvine Restaurants
 Seabird
@@ -31,6 +27,19 @@ Costco Pizza (anywhere works)
 ## Hobbies I recommend
 Pickleball
 
+Racquetball
+
 Crocheting medium useful things -- they're not useful
 
 Poetry -- only works if it's 103+ internally (fever) or externally (summer)
+
+## Favorite Sayings and Great Bits
+that solution is pedestrian
+
+[heckling audience questions]
+
+usability is silly, just USE it
+
+this is trivial/dangerous for obvious reasons
+
+okay chalo
